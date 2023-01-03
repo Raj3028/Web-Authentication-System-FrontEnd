@@ -12,7 +12,7 @@ const Login = () => {
     e.preventDefault()
     console.log(email, password);
 
-    let result = await fetch("http://localhost:3001/login", {
+    let result = await fetch("https://web-authentication-system.vercel.app/login", {
       method: "post",
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, password })

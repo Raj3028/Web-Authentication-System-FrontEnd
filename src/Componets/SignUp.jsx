@@ -12,7 +12,7 @@ const SignUp = () => {
   const collectData = async (e) =>{
     e.preventDefault()
     console.log(name, mobile, email, password);
-    let result = await fetch("http://localhost:3001/signUp", {
+    let result = await fetch("https://web-authentication-system.vercel.app/signUp", {
       method:"post",
       headers: {'Content-Type': 'application/json'},
       body:JSON.stringify({name, mobile, email, password})
