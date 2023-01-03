@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-ul {
+  height: 70px;
+  background-color: black;
+  margin: 0px;
+  text-align: right;
+
+}
+
+.header-ul li {
+  font-weight: bold;
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  margin-right: 20px;
+}
+
+.header-ul2 {
+  text-align: left;
+}
+
+.header-ul li:hover {
+  color: orange;
+}
+
+.header-ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.signup {
+  background-color: antiquewhite;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 370px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+/* .signup:hover{
+  color: rgb(211, 166, 53);
+} */
+
+.btn {
+  background-color: rgb(236, 228, 233);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80px;
+  color: rgb(12, 12, 12);
+}
+
+.btn:hover {
+  background-color: #61dafb;
+
+}
+
+.input {
+  width: 300px;
+  border-radius: 7px;
+  border: none;
+  padding: 10px;
+}
+
+.login {
+  background-color: antiquewhite;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 260px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px lightblue;
+
+}
+
+.header-right {
+  text-align: right;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(11, 204, 140);
+  float: left;
+  margin: 18px;
+}
+
+#a :hover {
+  color: rgb(211, 166, 53);
+}
